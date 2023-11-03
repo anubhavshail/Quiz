@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["New York", "London", "Paris", "Dublin"],
+        "answer": "Paris"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo Da Vinci", "Claude Monet"],
+        "answer": "Leonardo Da Vinci"
+    },
+    {
+        "question": "What is the largest country in the world?",
+        "options": ["Russia", "Canada", "China", "United States"],
+        "answer": "Russia"
+    },
+    {
+        "question": "What is the capital of the United States?",
+        "options": ["New York", "Washington D.C.", "Los Angeles", "Chicago"],
+        "answer": "Washington D.C."
+    },
+    {
+        "question": "How hot is the surface of the sun?",
+        "options": ["1,233 K", "5,778 K", "12,130 K", "101,300 K"],
+        "answer": "5,778 K"
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "options": ["Berlin", "Buenos Aires", "Madrid", "San Juan"],
+        "answer": "Madrid"
+    },
+    {
+        "question": "What is 70 degrees Fahrenheit in Celsius?",
+        "options": ["18.8889", "20", "21.1111", "158"],
+        "answer": "21.1111"
+    },
+    {
+        "question": "When was Mahatma Gandhi born?",
+        "options": ["October 2, 1869", "December 15, 1872", "July 18, 1918", "January 15, 1929"],
+        "answer": "October 2, 1869"
+    },
+    {
+        "question": "How far is the moon from Earth?",
+        "options": ["12,742 km", "139,822 km", "384,400 km", "57,910,000 km"],
+        "answer": "384,400 km"
+    },
+    {   
+        "question": "What is 65 times 52?",
+        "options": ["117", "3120", "3380","3520"],
+        "answer": "3380"
+    },
+    {
+        "question": "How tall is Mount Everest?",
+        "options": ["6,683 ft", "7,918 ft", "19,341 ft", "29,029 ft"],
+        "answer": "29,029 ft"
+    }
+]

@@ -1,0 +1,135 @@
+body {
+background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.quiz-container {
+    width: 80%;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #BCEAD5;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #8EC3B0 5px 5px 10px;
+
+}
+
+#ques-container {
+    background-color: #BCEAD5;
+    font-size: large;
+    text-align: center;
+    padding: 30px; 
+    height: 10%;
+}
+
+#choice-container {
+    background-color: #BCEAD5;
+    padding: 20px;
+    height: 50%;
+}
+
+#progress-bar-container {
+    width: 100%;
+}
+
+#progress-bar {
+    width: 0;
+    height: 8px;
+    background-color: #4caf50;
+}
+
+#result {
+    background-color: #BCEAD5;
+    font-size: large;
+    padding: 20px;
+    height: 10%;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 30%;
+    cursor: pointer;
+    padding: 18px 20px;
+    background-color: #DEF5E5;
+    margin: 5px 35%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: #67B26F 5px 5px 8px;
+}
+
+button:hover {
+    background-color: #8EC3B0;
+    color: #fff;
+}
+
+#next-button {
+    width: 10%;
+    align-self: flex-end;
+}
+
+.time-bar {
+    margin: 1rem;
+    overflow: hidden;
+}
+  
+.time-bar div {
+    height: 5px;
+    animation: roundtime calc(var(--duration) * 1s) steps(var(--duration))
+      forwards;
+    transform-origin: left center;
+    background: linear-gradient(to bottom, red, #900);
+  
+}
+
+.time-bar[data-style="smooth"] div {
+    animation: roundtime calc(var(--duration) * 1s) linear forwards;
+  }
+  
+@keyframes roundtime {
+    to {
+      transform: scaleX(0);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #ques-container {
+        font-size: 18px;
+    }
+
+    #choice-container {
+        flex-direction: column;
+    }
+
+    #choice-container button {
+        margin: 10px 0;
+    }
+
+    #next-button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    #ques-container {
+        font-size: 22px;
+    }
+
+    #choice-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #choice-container button {
+        margin: 10px;
+        flex: 1 0 45%;
+    }
+
+    #next-button {
+        width: 50%;
+    }
+}
